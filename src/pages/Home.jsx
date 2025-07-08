@@ -19,7 +19,7 @@ export const Home = () => {
   return (
     <div className="w-full h-screen flex flex-col overflow-hidden bg-gradient-to-br from-green-200 via-green-50 to-green-400">
       <Header />
-      <div className="flex-1 w-full px-2 md:px-8 py-4 md:py-8 overflow-y-auto flex flex-col items-center">
+      <div className="flex-1 w-full px-2 md:px-8 py-4 md:py-0 overflow-y-auto flex flex-col items-center">
         <div className="w-full flex flex-col items-center mb-8">
           <div className="flex flex-row w-full max-w-xl gap-3 items-center justify-center">
             <input
